@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+}
+
+body {
+   background-color: #f7f7f7;
+   color: #333;
+   font-size: 16px;
+   height: 100vh;
+   display: flex;
+   align-items: center; 
+   justify-content: center; 
+   padding: 10px;
+   overflow: auto; 
+}
+
+.form-container {
+   background-color: #fff;
+   padding: 20px;
+   width: 100%;
+   max-width: 600px; 
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start; 
+   box-sizing: border-box;
+   max-height: 90vh; 
+   overflow-y: auto; 
+}
+
+.form-container h3 {
+   font-size: 30px;
+   color: #333;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+
+.form-container form {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start; 
+   width: 100%;
+}
+
+.form-container form label {
+   font-size: 18px;
+   text-align: left;
+   display: block;
+   margin: 10px 0;
+}
+
+.form-container form input,
+.form-container form textarea,
+.form-container form select {
+   width: 100%;
+   padding: 10px 15px;
+   font-size: 17px;
+   margin: 8px 0;
+   background: #f1f1f1;
+   border-radius: 5px;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+}
+
+.form-container form input:focus,
+.form-container form textarea:focus,
+.form-container form select:focus {
+   border-color: crimson;
+}
+
+.form-container form textarea {
+   resize: vertical;
+   min-height: 100px;
+}
+
+.form-container form .form-btn {
+   background-color: #fbd0d9;
+   color: crimson;
+   padding: 12px 30px;
+   font-size: 18px;
+   text-transform: capitalize;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-top: 15px;
+   transition: all 0.3s ease;
+}
+
+.form-container form .form-btn:hover {
+   background-color: crimson;
+   color: #fff;
+}
+
+.form-container form p {
+   font-size: 18px;
+   color: #333;
+   margin-top: 15px;
+}
+
+.form-container form p a {
+   color: crimson;
+}
+
+.form-container form .error-msg {
+   background-color: crimson;
+   color: white;
+   padding: 10px;
+   font-size: 18px;
+   margin-top: 15px;
+   border-radius: 5px;
+}
+
+.form-container form .separator {
+   height: 1px;
+   background-color: #ddd;
+   margin: 15px 0;
+}

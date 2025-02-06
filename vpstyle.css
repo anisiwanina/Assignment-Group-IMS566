@@ -1,0 +1,77 @@
+.profile-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-container h3 {
+    text-align: center;
+    font-size: 30px; 
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.profile-table th, .profile-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 18px; 
+}
+
+.profile-table th {
+    background-color: #f1f1f1;
+}
+
+.profile-table td {
+    background-color: #f9f9f9; 
+}
+
+.edit-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #fbd0d9; 
+    color: crimson; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+.edit-btn:focus {
+    outline: none; 
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .profile-table th, .profile-table td {
+        font-size: 16px; 
+        padding: 10px 12px; 
+    }
+
+    .edit-btn {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
